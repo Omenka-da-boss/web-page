@@ -2,5 +2,62 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/category-bg1.png);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    background-color: white;
+}
+.img{
+    width: 200px;
+    height: 130px;
+}
+img{
+    width: 80%;
+    height: 80%;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.url{
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: rgb(226, 74, 74);
+}
+.fa{
+    font-size: 50px;
+    color: blue;
+}
+.nums{
+    color: white;
+    background-color: orangered;
+    padding: 2px 3px;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size: 12px;
 }
