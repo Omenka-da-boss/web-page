@@ -1,3 +1,3 @@
-const name = prompt("Enter your name : ")
+const name = "Ndubuisi Omenka"
 
-console.log(`Hello ${name})
+console.log(`Hello ${name}`)
