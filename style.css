@@ -8,7 +8,7 @@
 }
 .container{
     width: 100vw;
-    height: 300vh;
+    height: 315vh;
     background-image: url(./img/category-bg1.png);
     z-index: -1;
     background-size: auto 100%;
@@ -168,19 +168,53 @@ hr{
     width: 101%;
 }
 .menu-items{
-    background-color: white;
     display: flex;
     gap: 20px;
     width: 90%;
+    margin-left: 70px;
 }
 .men{
-    margin: 10px;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    height: 230px;
+    padding: 10px 10px;
+    transition: 1.5s;
 }
 .men img{
     aspect-ratio: 16/9;
     width: 100px;
     float: left;
+    border-radius: 10px;
+    margin: 10px 10px;
     height: 100px;
+    transition: 1.5s;
+}
+.men:hover img{
+    transform: scale(1.2);
+}
+.comm{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.comm h2{
+    margin: 7px 5px;
+    font-weight: bolder;
+}
+.comm .price{
+    font-weight: bolder;
+    margin: 7px 5px;
+}
+.comm p{
+    font-weight: bold;
+    margin: 7px 5px;
+}
+.comm input{
+    width: 180px;
+    padding: 7px 5px;
+    margin: 7px 5px
 }
 .btn{
     width: 100px;
@@ -196,4 +230,94 @@ hr{
 .btn:hover{
     background-color: hsl(0, 72%, 49%);
     transform: scale(1.2);
+}
+.see{
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: hsl(0, 72%, 59%);
+    border-radius: 5px;
+    transition: 1s;
+}
+.see:hover{
+    background-color: hsl(0, 72%, 49%);
+    transform: scale(1.2);
+}
+footer{
+    background-color: rgba(8, 8, 8,0.85);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    top: 317%;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.about{
+    text-align: center;
+}
+.about h2{
+    color: white;
+    padding-bottom: 10px;
+}
+.about p{
+    width: 300px;
+    color: white;
+    line-height: 1.5;
+}
+.wow{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 10px 5px;
+}
+.map h2{
+    color: white;
+}
+.wow a{
+    color: hsl(0, 72%, 49%);
+    padding: 5px 5px;
+    font-weight: bolder;
+    transition: 1s;
+}
+.wow a:hover{
+    color: #6c5ce7;
+}
+.social{
+    display: flex;
+    width: 40%;
+}
+.social img{
+    aspect-ratio: 16/9;
+    width: 60px;
+    height: 60px;
+}
+.social ul{
+    display: flex;
+    margin-left: 120px;
+    padding: 20px 20px;
+}
+.end{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background-color: black;
+}
+.end p{
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.end span{
+    color: hsl(0, 72%, 59%);
 }
