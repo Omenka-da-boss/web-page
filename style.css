@@ -17,6 +17,19 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+.ups{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 95%;
+    z-index: 9999;
+    top: 280%;
+    background-color: hsl(0, 72%, 59%);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
 .header{
     display: flex;
     justify-content: space-between;
